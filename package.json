@@ -1,0 +1,16 @@
+{
+  "name": "trello_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Zhanpeng",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -L server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "node": "^14.2.0"
+  }
+}
